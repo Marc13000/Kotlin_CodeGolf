@@ -10,7 +10,7 @@ fun main() {
     // Test countVowels
     assertEquals(3, countVowels("Hello World"))
     assertEquals(4, countVowels("Kotlin is fun!"))
-    assertEquals(5, countVowels("Education is key"))
+    assertEquals(7, countVowels("Education is key"))
 
     // Test sumOfDigits
     assertEquals(10, sumOfDigits(1234))
@@ -20,7 +20,7 @@ fun main() {
     // Test longestWord
     assertEquals("awesome", longestWord("Kotlin is awesome"))
     assertEquals("golfing", longestWord("I love code golfing"))
-    assertEquals("education", longestWord("Education is the key to success"))
+    assertEquals("Education", longestWord("Education is the key to success"))
     
     println("All tests passed!")
 }

@@ -16,6 +16,11 @@ fun main() {
     assertEquals(10, sumOfDigits(1234))
     assertEquals(30, sumOfDigits(9876))
     assertEquals(6, sumOfDigits(123))
+
+    // Test longestWord
+    assertEquals("awesome", longestWord("Kotlin is awesome"))
+    assertEquals("golfing", longestWord("I love code golfing"))
+    assertEquals("education", longestWord("Education is the key to success"))
     
     println("All tests passed!")
 }
